@@ -10,7 +10,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
+      'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+      'inter': ['Inter', 'sans-serif']
     },
     extend: {
       strokeWidth: {

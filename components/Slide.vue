@@ -126,18 +126,15 @@
     </button>
   </div>
   <h3 class="text-white">Game mới</h3>
-  <div>
-    <div class="item-game w-[203px] h-[381px]">
+  <div class="mt-1">
+    <div class="item-game w-[203px] h-[381px] hover:bg-white-500">
         <div class="picture">
             <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
         </div>
         <div class="description">
-            <div>
-                <span>BASE GAME</span>
-            </div>
-            <h3>Game of war</h3>
+            <h3 class="text-[#F5F5F5] font-inter text-[16px] text-[#F5F5F5] py-2">God of war</h3>
             <div class="flex justify-between">
-                <div class="w-[52px] h-[25px] bg-blue" style="border-radius: 6px"></div>
+                <div class="w-full h-[45px] bg-blue-500 flex items-center justify-between hover:bg-[#0074e4] cursor-pointer" style="border-radius: 6px"><span class="m-auto text-[#F5F5F5]">TẢI GAME</span></div>
             </div>
         </div>
     </div>
