@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("./fonts/Helvetica\ Neue\ Medium\ Extended.otf");
+  }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

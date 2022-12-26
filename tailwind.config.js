@@ -6,9 +6,19 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
+    },
+    extend: {
+      strokeWidth: {
+        '2': '12px',
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

@@ -1,6 +1,15 @@
 <template>
-    <div>
-      Some default layout shared across all pages sdfdsfsdfdsf
+  <div>
+    <NavBar />
+    <div class="bg-[#121212]">
+      <div class="content w-[75%] m-auto h-full bg-[#121212]">
       <slot />
     </div>
-  </template>
+    </div>
+    <Footer/>
+  </div>
+</template>
+<script setup>
+import NavBar from "~~/components/NavBar.vue";
+import Footer from "~~/components/Footer.vue";
+</script>
