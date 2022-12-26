@@ -125,19 +125,25 @@
       </span>
     </button>
   </div>
-  <h3 class="text-white">Game mới</h3>
+  <div class="new game my-4 mb-4">
+    <h3 class="text-white mt-4">Game mới</h3>
   <div class="mt-1">
-    <div class="item-game w-[203px] h-[381px] hover:bg-white-500">
-        <div class="picture">
-            <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
-        </div>
-        <div class="description">
-            <h3 class="text-[#F5F5F5] font-inter text-[16px] text-[#F5F5F5] py-2">God of war</h3>
-            <div class="flex justify-between">
-                <div class="w-full h-[45px] bg-blue-500 flex items-center justify-between hover:bg-[#0074e4] cursor-pointer" style="border-radius: 6px"><span class="m-auto text-[#F5F5F5]">TẢI GAME</span></div>
+    <div class="item-moi bg-[#282828] w-[200px] h-[275px] p-4 hover:bg-[#282828]" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
             </div>
-        </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div style="font-size: 0.875rem; font-weight: 400;">Tống Tiến Anh</div>
+          </div>
+      </div>
     </div>
+  </div>
   </div>
 </template>
 <style scoped>
@@ -150,5 +156,25 @@
 }
 input:focus{
     outline: none;
+}
+.container-picture {
+    background-color: var(--card-color,#333);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+    position: relative;
+    width: 100%;
+}
+item-moi .img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.game-name {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
 }
 </style>
