@@ -131,7 +131,7 @@
         <span class="font-inter font-[12px] text-sky-500 cursor-pointer hover:underline" style="font-size: 13px">Hiện tất cả</span>
     </div>
   <div class="mt-1 grid gird-container">
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="item-moi bg-[#282828] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
             <div class="container-picture relative">
@@ -158,7 +158,7 @@
           </div>
       </div>
     </div>
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="item-moi bg-[#282828] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
             <div class="container-picture relative">
@@ -185,7 +185,7 @@
           </div>
       </div>
     </div>
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="item-moi bg-[#282828] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
             <div class="container-picture relative">
@@ -212,7 +212,7 @@
           </div>
       </div>
     </div>
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="item-moi bg-[#282828] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
             <div class="container-picture relative">
@@ -239,7 +239,7 @@
           </div>
       </div>
     </div>
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="item-moi bg-[#282828] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
             <div class="container-picture relative">
@@ -262,40 +262,13 @@
                 <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
                 <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
                 <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
-      <div>
-          <div class="mb-4 relative">
-            <div class="container-picture relative">
-              <div>
-                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
-              </div>
-              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-                    </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
-            <div class="flex flex-wrap">
-                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
-                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
-                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
-                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phưu lưu</span>
             </div>
           </div>
       </div>
     </div>
   </div>
   <ul class="flex mt-4 update-game">
-    <li>
+    <li class="update-game_item px-3">
         <div>
             <div class="flex justify-between items-center mb-[10px]">
                 <h2 class="font-inter">Game update</h2>
@@ -304,28 +277,167 @@
                 </a>
             </div>
             <ul class="flex flex-col ">
-                <li>
+                <li class="mt-4" style="width: 100%">
                     <div>
                         <a href="">
-                            <div class="flex items-center">
-                                <div class="w-[96px] h-[129px]">
+                            <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                                <div class="w-[96px] h-auto mr-[15px]">
                                     <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
                                 </div>
                                 <div>
-                                    <span class="font-inter">Fortnite</span>
+                                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                                  <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </li>
+                <li class="mt-4" style="width: 100%">
+                <div>
+                  <a href="">
+                    <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                      <div class="w-[96px] h-auto mr-[15px]">
+                        <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                      </div>
+                      <div>
+                        <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                        <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+                <li class="mt-4" style="width: 100%">
+                <div>
+                  <a href="">
+                    <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                      <div class="w-[96px] h-auto mr-[15px]">
+                        <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                      </div>
+                      <div>
+                        <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                        <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
             </ul>
         </div>
     </li>
-    <li>
-        
+    <li class="update-game_item px-3">
+      <div>
+        <div class="flex justify-between items-center mb-[10px]">
+          <h2 class="font-inter">Game update</h2>
+          <a href="">
+            <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
+          </a>
+        </div>
+        <ul class="flex flex-col ">
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </li>
-    <li>
-        
+    <li class="update-game_item px-3">
+      <div>
+        <div class="flex justify-between items-center mb-[10px]">
+          <h2 class="font-inter">Game update</h2>
+          <a href="">
+            <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
+          </a>
+        </div>
+        <ul class="flex flex-col ">
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="mt-4" style="width: 100%">
+            <div>
+              <a href="">
+                <div class="flex items-center hover:bg-[#2C394B]  hover:rounded-2xl">
+                  <div class="w-[96px] h-auto mr-[15px]">
+                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                  </div>
+                  <div>
+                    <span class="font-inter">EA SPORTS™ FIFA 23 Standard Edition</span>
+                    <div class="text-[#ccc] mt-2" style="font-size: 13px;">Phát hành: 22/08/2013</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </li>
   </ul>
   </div>
@@ -342,7 +454,6 @@ input:focus{
     outline: none;
 }
 .container-picture {
-    background-color: var(--card-color,#333);
     border-radius: 6px;
     -webkit-box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
     box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
@@ -368,7 +479,7 @@ item-moi .img {
   vertical-align: middle;
 }
 .gird-container {
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 17px;
 }
 .container-picture:hover .button-down {
@@ -377,7 +488,7 @@ item-moi .img {
 .update-game li {
     width: calc(100% / 3);
 }
-.update-game li:not(:last-child) {
+.update-game .update-game_item {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 </style>
