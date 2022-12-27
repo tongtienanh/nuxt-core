@@ -3,5 +3,10 @@
     src: url("./fonts/Helvetica\ Neue\ Medium\ Extended.otf");
   }
 @tailwind base;
+@layer base {
+  html {
+    @apply text-white;
+  } 
+}
 @tailwind components;
 @tailwind utilities;

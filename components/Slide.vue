@@ -2,7 +2,7 @@
   <div class="search-block pt-10 pb-8 flex">
     <div class="css-trzy6k relative" aria-expanded="false">
         <button class="css-hv6xwv w-[20px] h-[20px] absolute text-white" style="top: 11px; left: 12px"><span class="css-1s62n5m" aria-hidden="true" data-testid="icon"><svg xmlns="http://www.w3.org/2000/svg" class="svg css-uwwqev" viewBox="0 0 21 20" preserveAspectRatio="xMidYMid meet"><g transform="scale(1 -1) rotate(-45 -11.93502884 -2)" stroke="currentColor" stroke-width="1.65" fill="none" fill-rule="evenodd"><circle cx="7.70710678" cy="7.70710678" r="7"></circle><path d="M15.2071068 8.62132034h5.6923881" stroke-linecap="square"></path></g></svg></span></button>
-        <input class="css-w7sedp font-sans h-[40px] w-[230px] pl-10 bg-[#202020] text-[#F5F5F5]" data-testid="input-input" placeholder="Search store" value="" style="font-size: 11px;border-radius: 27px">
+        <input class="css-w7sedp font-sans h-[40px] w-[230px] pl-10 bg-[#202020] text-[#F5F5F5] hover:bg-[#2C394B]" data-testid="input-input" placeholder="Search store" value="" style="font-size: 11px;border-radius: 27px">
     </div>
     <ul class="flex items-center">
         <li class="text-[#F5F5F5] ml-5">
@@ -126,24 +126,208 @@
     </button>
   </div>
   <div class="new game my-4 mb-4">
-    <h3 class="text-white mt-4">Game mới</h3>
-  <div class="mt-1">
-    <div class="item-moi bg-[#282828] w-[200px] h-[275px] p-4 hover:bg-[#282828]" style="border-radius: 6px; transition: background-color .3s ease;">
+    <div class="flex justify-between items-center mt-4">
+        <h2 class="text-white font-inter">Game mới</h2>
+        <span class="font-inter font-[12px] text-sky-500 cursor-pointer hover:underline" style="font-size: 13px">Hiện tất cả</span>
+    </div>
+  <div class="mt-1 grid gird-container">
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
       <div>
           <div class="mb-4 relative">
-            <div class="container-picture">
+            <div class="container-picture relative">
               <div>
                 <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
               </div>
             </div>
           </div>
           <div>
             <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
-            <div style="font-size: 0.875rem; font-weight: 400;">Tống Tiến Anh</div>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture relative">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture relative">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture relative">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture relative">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phiêu lưu</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="item-moi bg-[#282828] w-[216px] p-4" style="border-radius: 6px; transition: background-color .3s ease;">
+      <div>
+          <div class="mb-4 relative">
+            <div class="container-picture relative">
+              <div>
+                <img src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7?h=854&resize=1&w=640" alt="">
+              </div>
+              <div class="button-down h-[32px] w-[32px] rounded-full bg-[#082032] flex justify-center items-center absolute hidden" style="bottom: 8px; right: 10px;">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="" style="color: #FF4C29; width:20px;height: 20px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                    </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="game-name text-white font-[16px]" style="font-weight: 700">God of war</a>
+            <div class="flex flex-wrap">
+                <span class="mt-1.5 bg-[#D49B54] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900 font-inter">Hành động</span>
+                <span class="mt-1.5 bg-[#C74B50] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 font-inter">Nhập vai</span>
+                <span class="mt-1.5 bg-[#712B75] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Giải đố</span>
+                <span class="mt-1.5 bg-[#46244C] text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 font-inter">Phưu lưu</span>
+            </div>
           </div>
       </div>
     </div>
   </div>
+  <ul class="flex mt-4 update-game">
+    <li>
+        <div>
+            <div class="flex justify-between items-center mb-[10px]">
+                <h2 class="font-inter">Game update</h2>
+                <a href="">
+                    <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
+                </a>
+            </div>
+            <ul class="flex flex-col ">
+                <li>
+                    <div>
+                        <a href="">
+                            <div class="flex items-center">
+                                <div class="w-[96px] h-[129px]">
+                                    <img class="css-1jk123r" alt="Fortnite" src="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-animated="animated" data-image="https://cdn1.epicgames.com/offer/fn/23BR_C4S1_EGS_Launcher_Blade_1200x1600_1200x1600-708ad0c7e0813b60cb2fda3e24e39401?h=480&amp;resize=1&amp;w=360" data-testid="lazy-image-observer">
+                                </div>
+                                <div>
+                                    <span class="font-inter">Fortnite</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        
+    </li>
+    <li>
+        
+    </li>
+  </ul>
   </div>
 </template>
 <style scoped>
@@ -165,6 +349,9 @@ input:focus{
     position: relative;
     width: 100%;
 }
+.item-moi {
+    height: fit-content;
+}
 item-moi .img {
     height: 100%;
     left: 0;
@@ -172,9 +359,25 @@ item-moi .img {
     top: 0;
     width: 100%;
 }
+.item-moi:hover {
+    background: #2C394B;
+}
 .game-name {
   display: inline-block;
   max-width: 100%;
   vertical-align: middle;
+}
+.gird-container {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 17px;
+}
+.container-picture:hover .button-down {
+    display: flex;
+}
+.update-game li {
+    width: calc(100% / 3);
+}
+.update-game li:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 </style>
