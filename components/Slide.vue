@@ -1,18 +1,4 @@
 <template>
-  <div class="search-block pt-10 pb-8 flex">
-    <div class="css-trzy6k relative" aria-expanded="false">
-        <button class="css-hv6xwv w-[20px] h-[20px] absolute text-white" style="top: 11px; left: 12px"><span class="css-1s62n5m" aria-hidden="true" data-testid="icon"><svg xmlns="http://www.w3.org/2000/svg" class="svg css-uwwqev" viewBox="0 0 21 20" preserveAspectRatio="xMidYMid meet"><g transform="scale(1 -1) rotate(-45 -11.93502884 -2)" stroke="currentColor" stroke-width="1.65" fill="none" fill-rule="evenodd"><circle cx="7.70710678" cy="7.70710678" r="7"></circle><path d="M15.2071068 8.62132034h5.6923881" stroke-linecap="square"></path></g></svg></span></button>
-        <input class="css-w7sedp font-sans h-[40px] w-[230px] pl-10 bg-[#202020] text-[#F5F5F5] hover:bg-[#2C394B]" data-testid="input-input" placeholder="Search store" value="" style="font-size: 11px;border-radius: 27px">
-    </div>
-    <ul class="flex items-center">
-        <li class="text-[#F5F5F5] ml-5">
-            <a href="#"><span class="text-[16px] text-[#F5F5F5]">Discover</span></a>
-        </li>
-        <li class="text-[#F5F5F5] ml-5">
-            <a href="#"><span class="text-[16px] text-[#F5F5F5]">News</span></a>
-        </li>
-    </ul>
-  </div>
   <div id="default-carousel" class="relative h-[614px]" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-full">
