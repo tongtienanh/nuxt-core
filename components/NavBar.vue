@@ -14,13 +14,14 @@
           <li
             class="text-center text-[#ccc] m-auto font-sans text-[11px] uppercase hover:text-white cursor-pointer"
           >
-            Home
+            <router-link to="/">Home</router-link>
           </li>
           <li
-            @click="showOption"
             class="more-game text-center text-[#ccc] m-auto font-sans text-[11px] uppercase ml-6 flex align-center cursor-pointer relative"
           >
-            <span class="more-game_text">Game</span>
+            <span class="more-game_text">
+              <router-link to="/games">Game</router-link>
+            </span>
             <ul v-if="isShow" class="absolute game-option w-auto z-10 bg-[#2a2a2a]" style="max-width: 180px; left: -31px; top: 33px">
               <li class="w-full h-[2em] my-[0.1em] mt-2">
                 <a href="" class="px-[0.9em] w-auto whitespace-nowrap hover:text-white">Hành động</a>
