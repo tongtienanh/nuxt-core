@@ -477,4 +477,54 @@ item-moi .img {
 .update-game .update-game_item {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
+@media (max-width: 1000px) {
+  .gird-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0px;
+    justify-content: space-between;
+  }
+  .item-moi {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .update-game {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .update-game .update-game_item[data-v-a2705108] {
+    border-right: none;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+  .update-game li {
+    width: calc(100%);
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .gird-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0px;
+  }
+  .item-moi {
+    width: calc((100% - 60px) / 3);
+    margin: 10px;
+    
+  }
+  .update-game {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .update-game .update-game_item[data-v-a2705108] {
+    border-right: none;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+  .update-game li {
+    width: 50%;
+  }
+}
 </style>

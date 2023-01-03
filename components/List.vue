@@ -1,6 +1,6 @@
 <template>
-  <div class="flex">
-    <div class="left w-[80%] pr-[15px]">
+  <div class="flex page-game">
+    <div class="left w-[80%] pr-[15px] list-game">
       <div class="mb-4">
         <div @click="showFilter" class="font-inter text-[#F5F5F5] cursor-pointer inline-block flex items-center w-fit relative" style="font-size: 14px;">
           Show: New Release
@@ -286,7 +286,7 @@
         </div>
       </div>
     </div>
-    <div class="right w-[20%]">
+    <div class="right w-[20%] search-game">
       <div class="filter-search">
         <div class="flex justify-between items-center">
           <span class="font-inter" style="font-size: 14px;">Filter</span>
@@ -409,5 +409,53 @@ const showOption = () => {
 }
 .option-button:hover .text-option svg{
   color: #fff!important;
+}
+@media (max-width: 1100px) {
+  .page-game {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+  }
+  .list-game {
+    width: 100%;
+  }
+  .search-game {
+    width: 100%;
+  }
+  .list-items {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0px;
+    width: 100%;
+  }
+  li.items {
+    width: calc((100% - 40px) / 2);
+    margin: 10px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .page-game {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+  }
+  .list-game {
+    width: 100%;
+  }
+  .search-game {
+    width: 100%;
+  }
+  .list-items {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0px;
+    width: 100%;
+  }
+  li.items {
+    width: calc((100% - 60px) / 3);
+    margin: 10px;
+  }
 }
 </style>
