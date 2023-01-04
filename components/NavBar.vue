@@ -53,10 +53,10 @@
     </div>
     <ul class="flex items-center">
       <li class="text-[#F5F5F5] ml-5">
-        <a href="#"><span class="text-[16px] text-[#F5F5F5]">Discover</span></a>
+<!--        <a href="#"><span class="text-[16px] text-[#F5F5F5]">Discover</span></a>-->
       </li>
       <li class="text-[#F5F5F5] ml-5">
-        <a href="#"><span class="text-[16px] text-[#F5F5F5]">News</span></a>
+<!--        <a href="#"><span class="text-[16px] text-[#F5F5F5]">News</span></a>-->
       </li>
     </ul>
   </div>

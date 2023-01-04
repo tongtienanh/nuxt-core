@@ -257,7 +257,7 @@
     <li class="update-game_item px-3">
         <div>
             <div class="flex justify-between items-center mb-[10px]">
-                <h2 class="font-inter">Game update</h2>
+                <h2 class="font-inter">Game Việt hóa</h2>
                 <a href="">
                     <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
                 </a>
@@ -314,7 +314,7 @@
     <li class="update-game_item px-3">
       <div>
         <div class="flex justify-between items-center mb-[10px]">
-          <h2 class="font-inter">Game update</h2>
+          <h2 class="font-inter">Game phổ biến</h2>
           <a href="">
             <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
           </a>
@@ -371,7 +371,7 @@
     <li class="update-game_item px-3">
       <div>
         <div class="flex justify-between items-center mb-[10px]">
-          <h2 class="font-inter">Game update</h2>
+          <h2 class="font-inter">Game update DLC</h2>
           <a href="">
             <span class="font-inter hover:underline text-sky-500 cursor-pointer" style="font-size: 13px">Hiển thị thêm</span>
           </a>
@@ -511,7 +511,7 @@ item-moi .img {
   .item-moi {
     width: calc((100% - 60px) / 3);
     margin: 10px;
-    
+
   }
   .update-game {
     flex-wrap: wrap;
